@@ -11,7 +11,7 @@ with open('info.csv', 'r') as file:
     for row in reader:
         # print(row[0])
         api_id = row[0]
-        api_hash = row[1]
+        api_hash = row[1] 
         phone = row[2]
         password=row[3]
         print (api_id)
